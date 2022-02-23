@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(66, 120, 172);
+  margin: 0;
+}
+
+/* CABECERA */
+.cabecera {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  background-color: black;
+}
+h1 {
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+/* MAIN */
+
+h2 {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 80px;
+}
+h3 {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+}
+h4 {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.condiciones {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+.enlace {
+  color: white;
+}
