@@ -1,18 +1,35 @@
+:root {
+  max-width: 480px;
+  box-sizing: border-box;
+  /*FALTA AÑADIR LA FUENTE ROBOTTO*/
+}
+
 /* CABECERA */
 .cabecera {
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 25px;
   background-color: black;
+  height: 5vh;
+  min-height: 30px;
+  display: flex;
+  border: solid 3px red;
+}
+
+.container {
+  display: flex;
+  width: 450px;
+  padding: 5px;
+  margin: 1px;
+  justify-content: space-center;
+  border: solid 3px blue;
 }
 .logo {
-  width: 100px;
 }
 .enlace {
   display: none;
 }
 .menu {
-  width: 20px;
 }
 
 /* MAIN */
