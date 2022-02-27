@@ -1,12 +1,12 @@
 :root {
-  max-width: 480px;
-  box-sizing: border-box;
+  /* max-width: 480px; */ /* He comentado el tamaño máximo para hacerlo con el formato responsive */
 
   --fuente-normal: "Roboto", sans-serif;
 }
 
 body {
   font-family: var(--fuente-normal);
+  box-sizing: border-box; /* He cambiado el borde-box a body */
 }
 
 /* CABECERA */
@@ -17,7 +17,6 @@ body {
   height: 5vh;
   min-height: 30px;
   display: flex;
-  border: solid 3px red;
 }
 
 .container {
@@ -26,7 +25,6 @@ body {
   padding: 5px;
   margin: 1px;
   justify-content: space-center;
-  border: solid 3px blue;
 }
 .logo {
 }
@@ -39,39 +37,55 @@ body {
 /* MAIN */
 
 .blue {
-  background-color: rgb(66, 120, 172);
+  background-color: #559bf0; /* He cambiado el color a uno más parecido */
   color: white;
 
-  /* height: 50vh; */
-  padding: 10px;
+  height: 50vh;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
+.contenedor_blue {
+  margin: 15px; /* He cambiado el padding a 15px, lo he cambiado por margin y lo he pasado de .blue aquí*/
+}
 .encabezado-1 {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 58px; /* He cambiado el tamaño a 58px */
 
   margin: 0;
 }
 .subtitulo {
   font-size: 25px;
+  line-height: 40px; /* He añadadido un interlineado */
 }
+.green {
+  background-color: #3cbb69;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+
+  padding: 20px 0 15px 0;
+
+  border-radius: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} /* He añadido todo este contenedor y las propiedades que le siguen */
+.condiciones {
+  color: white;
+  font-size: 14px;
+} /* He cambiado este contenedor a esta zona (estaba más abajo) */
 
 .white {
 }
 .encabezado-2 {
   font-size: 80px;
 }
-
 h4 {
   color: white;
   font-size: 15px;
-}
-.condiciones {
-  color: white;
-  font-size: 10px;
 }
 .enlace {
   color: white;
