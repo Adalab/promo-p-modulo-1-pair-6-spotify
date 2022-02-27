@@ -1,5 +1,5 @@
 :root {
-  /* max-width: 480px; */ /* He comentado el tamaño máximo para hacerlo con el formato responsive */
+  max-width: 480px; /* He comentado el tamaño máximo para hacerlo con el formato responsive */
 
   --fuente-normal: "Roboto", sans-serif;
 }
@@ -79,9 +79,51 @@ body {
 } /* He cambiado este contenedor a esta zona (estaba más abajo) */
 
 .white {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .encabezado-2 {
-  font-size: 80px;
+  font-family: var(--fuente-normal);
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+}
+
+.benefit-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 80%;
+  padding: 0;
+}
+
+.benefit {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  padding-bottom: 50px;
+}
+
+.image-benefit {
+  width: 100px;
+  height: 100px;
+  padding-right: 30px;
+}
+
+.benefit-title {
+  font-family: var(--fuente-normal);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.benefit-text {
+  font-family: var(--fuente-normal);
+  font-size: 15px;
 }
 h4 {
   color: white;
