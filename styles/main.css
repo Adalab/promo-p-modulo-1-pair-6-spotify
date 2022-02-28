@@ -1,6 +1,4 @@
 :root {
-  max-width: 480px; /* He comentado el tamaño máximo para hacerlo con el formato responsive */
-
   --fuente-normal: "Roboto", sans-serif;
 }
 
@@ -17,14 +15,15 @@ body {
   height: 5vh;
   min-height: 30px;
   display: flex;
+  position: sticky;
 }
 
 .container {
   display: flex;
-  width: 450px;
+  justify-content: space-between;
+  width: 100%;
   padding: 5px;
   margin: 1px;
-  justify-content: space-center;
 }
 .logo {
 }
@@ -39,9 +38,8 @@ body {
 .blue {
   background-color: #559bf0; /* He cambiado el color a uno más parecido */
   color: white;
-
+  position: relative;
   height: 50vh;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
